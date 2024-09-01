@@ -16,12 +16,20 @@ TransLaravelizer is a Python utility designed to streamline the process of local
 - Python 3.8 or later.
 - A Laravel project with Blade templates utilizing the `trans()` function for translations.
 
+### Installation
+
+Clone this repository into your project's root directory:
+
+```bash
+git clone https://github.com/aymansy93/TransLaravelizer.git
+```
+
 ## Usage
 
 1. **Run the script** by executing the following command:
 
     ```bash
-    python export_translations.py
+    python lang.py
     ```
 
     This command will extract all the translatable strings from your Blade templates and controller files and write them to JSON files located in the `langExport` directory.
@@ -62,11 +70,3 @@ Feel free to fork this project, make improvements, and submit pull requests. Sug
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-
-### Installation
-
-Clone this repository into your project's root directory:
-
-```bash
-git clone https://github.com/aymansy93/TransLaravelizer.git
